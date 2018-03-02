@@ -1,0 +1,24 @@
+{
+  "name": "generator-pandora-app",
+  "version": "0.0.1",
+  "description": "This is yeoman generator for pandorajs app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandolajs/generator-pandora-app.git"
+  },
+  "keywords": [
+    "yeoman",
+    "generator",
+    "pandorajs"
+  ],
+  "author": "JohnHou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandolajs/generator-pandora-app/issues"
+  },
+  "homepage": "https://github.com/pandolajs/generator-pandora-app#readme"
+}
