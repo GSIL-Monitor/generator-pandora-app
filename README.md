@@ -4,7 +4,7 @@
 
 做脚手架的主要目的就是想在公司层面统一前端的技术栈，降低一线业务开发因项目调整带来的额外的学习成本。
 
-选择 yeoman 作为 react-koa 脚手架的底层技术支撑，主要是想把 react-koa 脚手架作为前端工程化的一部分，方便后续集成（wax 集成），其次就是 yeoman 真的是一个不错的脚手架解决方案，功能强大，使用方便，扩展灵活。
+选择 yeoman 作为 react-koa 脚手架的底层技术支撑，主要是想把 react-koa 脚手架作为前端工程化的一部分，方便后续集成（pandorajs-cli 集成），其次就是 yeoman 真的是一个不错的脚手架解决方案，功能强大，使用方便，扩展灵活。
 
 ## Q&A
 
@@ -30,7 +30,7 @@
     npm i -g yo
 ```
 
-2. 在安装 react-koa 项目生成器
+2. 在安装 pandolajs-app 项目生成器
 
 ```
     npm i -g generator-pandolajs-app
@@ -40,10 +40,10 @@
 
 ```
     // 多页项目
-    yo react-koa projectName --mpa
+    yo pandolajs-app projectName --mpa
 
     // 单页项目
-    yo react-koa projectName --spa
+    yo pandolajs-app projectName --spa
 ```
 
 4. 恭喜你，可以愉快的写 bug 了~~~
@@ -125,8 +125,8 @@
   npm i -g yo
 
   // 生成 spa 项目
-  yo react-koa spa --spa
+  yo pandolajs-app spa --spa
 
   // 生成 mpa 项目
-  yo react-koa mpa --mpa
+  yo pandolajs-app mpa --mpa
 ```
