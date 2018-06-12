@@ -1,0 +1,54 @@
+{
+  "apps": [{
+      "name": "development",
+      "script": "./build/server.js",
+      "exec_mode": "fork",
+      "max_memory_restart": "500M",
+      "env": {
+        "NODE_ENV": "development",
+        "BLUEBIRD_WARNINGS": 0
+      }
+    },
+    {
+      "name": "dev-server",
+      "script": "./scripts/mockServer.js",
+      "exec_mode": "fork",
+      "max_memory_restart": "500M",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "name": "test",
+      "script": "./build/server.js",
+      "exec_mode": "fork",
+      "max_memory_restart": "500M",
+      "env": {
+        "NODE_ENV": "test",
+        "BLUEBIRD_WARNINGS": 0
+      }
+    },
+    {
+      "name": "staging",
+      "script": "./build/server.js",
+      "instances": "4",
+      "exec_mode": "cluster",
+      "max_memory_restart": "500M",
+      "env": {
+        "NODE_ENV": "staging",
+        "BLUEBIRD_WARNINGS": 0
+      }
+    },
+    {
+      "name": "production",
+      "script": "./build/server.js",
+      "instances": "4",
+      "exec_mode": "cluster",
+      "max_memory_restart": "1G",
+      "env": {
+        "NODE_ENV": "production",
+        "BLUEBIRD_WARNINGS": 0
+      }
+    }
+  ]
+}

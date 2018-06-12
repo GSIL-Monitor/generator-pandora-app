@@ -1,0 +1,31 @@
+server:
+    port: 8080
+    devPort : 9080
+    debugPort: 7080
+api:
+  clientUrl: ""
+  serverUrl: "http://localhost:8080"
+  test:
+    credit: "http://pbcc-web.credit-guard.k2.test.wacai.info/pbcc"
+    blacklist: "http://credit-bodyguard-web.credit-guard.k2.test.wacai.info"
+  staging:
+    credit: "http://credit2.test.wacai.info/pbcc"
+    blacklist: "http://192.168.3.62:8882"
+  production:
+    credit: "http://credit2.test.wacai.info/pbcc"
+    blacklist: "http://192.168.3.62:8882"
+stat:
+  test:
+    appKey: "H0Zs7OZ5J8ydGw8JeS2O"
+  staging:
+    appKey: "H0Zs7OZ5J8ydGw8JeS2O"
+  development:
+    appKey: "H0Zs7OZ5J8ydGw8JeS2O"
+  production:
+    appKey: "M0w7n5Yq8IZKdO8Y0p0i"
+logLevel:
+  development: "debug"
+  test: "info"
+  staging: "error"
+  production: "error"
+  

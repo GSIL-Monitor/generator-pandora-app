@@ -4,19 +4,28 @@
   "description": "This is yeoman generator for pandorajs app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "files": [
+    "generators"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pandolajs/generator-pandora-app.git"
   },
   "keywords": [
-    "yeoman",
-    "generator",
-    "pandorajs"
+    "yeoman-generator",
+    "react",
+    "koa",
+    "boilerplate"
   ],
-  "author": "JohnHou",
+  "author": "sizhao",
   "license": "MIT",
+  "dependencies": {
+    "gulp-jsbeautifier": "^2.1.2",
+    "through2": "^2.0.3",
+    "yeoman-generator": "^2.0.2"
+  },
   "bugs": {
     "url": "https://github.com/pandolajs/generator-pandora-app/issues"
   },

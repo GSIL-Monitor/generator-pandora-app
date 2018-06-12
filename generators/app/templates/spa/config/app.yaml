@@ -1,0 +1,9 @@
+server:
+    port: 8080
+    devPort : 9080
+    debugPort: 7080
+api:
+  client: ""
+  server: ""
+stat: "H0Zs7OZ5J8ydGw8JeS2O"
+logLevel: "debug"
